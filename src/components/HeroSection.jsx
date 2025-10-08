@@ -17,7 +17,7 @@ const HeroSection = () => {
 
             <div className="flex-1 flex justify-center">
                 <img
-                    src="/hero.png"
+                    src={`${import.meta.env.BASE_URL}hero.png`}
                     alt="Students learning"
                     className="max-w-md w-full"
                 />

@@ -7,8 +7,7 @@ const Footer = () => {
                 <div>
                     <div className="flex items-center mb-4">
                         <img
-                            src="/logo.png"
-                            alt="Logo"
+                            src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo"
                             className="w-8 h-8 mr-2"
                         />
                         <h2 className="text-2xl font-semibold">Byway</h2>

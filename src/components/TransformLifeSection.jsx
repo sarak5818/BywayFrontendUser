@@ -16,7 +16,7 @@ const TransformLifeSection = () => {
 
             <div className="md:w-1/2 flex justify-center">
                 <img
-                    src="/image.png"
+                    src={`${import.meta.env.BASE_URL}image.png`}
                     alt="Student Learning"
                     className="rounded-2xl w-96 h-auto object-cover"
                 />

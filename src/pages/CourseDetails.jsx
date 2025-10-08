@@ -19,7 +19,7 @@ const CourseDetails = () => {
         instructor: "Ronald Richards",
         category: "UI/UX Design",
         price: 45,
-        image: "/course1.png",
+        image: `${import.meta.env.BASE_URL}course1.png`,
         description: `
       This interactive e-learning course will introduce you to User Experience (UX) design,
       the art of creating products and services that are intuitive, enjoyable, and user-friendly.
@@ -59,10 +59,18 @@ const CourseDetails = () => {
     ];
 
     const similarCourses = [
-        { id: 1, title: "Beginner’s Guide to Design", price: 45, instructor: "Ronald Richards", image: "/course1.png" },
-        { id: 2, title: "UI/UX Essentials", price: 45, instructor: "Ronald Richards", image: "/course1.png" },
-        { id: 3, title: "Mastering Figma", price: 45, instructor: "Ronald Richards", image: "/course1.png" },
-        { id: 4, title: "Advanced Prototyping", price: 45, instructor: "Ronald Richards", image: "/course1.png" },
+        {
+            id: 1, title: "Beginner’s Guide to Design", price: 45, instructor: "Ronald Richards", image: `${import.meta.env.BASE_URL}course1.png`
+        },
+        {
+            id: 2, title: "UI/UX Essentials", price: 45, instructor: "Ronald Richards", image: `${import.meta.env.BASE_URL}course1.png`
+        },
+        {
+            id: 3, title: "Mastering Figma", price: 45, instructor: "Ronald Richards", image: `${import.meta.env.BASE_URL}course1.png`
+        },
+        {
+            id: 4, title: "Advanced Prototyping", price: 45, instructor: "Ronald Richards", image: `${import.meta.env.BASE_URL}course1.png`
+        },
     ];
 
     const handleAddToCart = () => {

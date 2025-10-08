@@ -88,8 +88,7 @@ const Login = () => {
                 className="w-1/2 bg-gray-50 flex justify-center items-center"
             >
                 <img
-                    src="/log1.png"
-                    alt="Learning illustration"
+                    src={`${import.meta.env.BASE_URL}log1.png`}
                     className="w-4/5 rounded-xl shadow-lg"
                 />
             </motion.div>

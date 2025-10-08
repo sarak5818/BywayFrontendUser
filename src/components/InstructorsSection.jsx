@@ -9,15 +9,16 @@ const InstructorsSection = () => {
             title: "UI/UX Design",
             rating: 4.8,
             students: "2,320",
-            image: "/instructor1.png",
+            image: `${import.meta.env.BASE_URL}instructor1.png`
         },
+
         {
             id: 2,
             name: "Kristin Watson",
             title: "UI/UX Design",
             rating: 4.8,
             students: "2,320",
-            image: "/instructor1.png",
+            image: `${import.meta.env.BASE_URL}instructor1.png`
         },
         {
             id: 3,
@@ -25,7 +26,7 @@ const InstructorsSection = () => {
             title: "UI/UX Design",
             rating: 4.8,
             students: "2,320",
-            image: "/instructor1.png",
+            image: `${import.meta.env.BASE_URL}instructor1.png`
         },
         {
             id: 4,
@@ -33,7 +34,7 @@ const InstructorsSection = () => {
             title: "UI/UX Design",
             rating: 4.8,
             students: "2,320",
-            image: "/instructor1.png",
+            image: `${import.meta.env.BASE_URL}instructor1.png`
         },
     ];
 

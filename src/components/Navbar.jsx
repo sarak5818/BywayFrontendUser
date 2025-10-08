@@ -27,7 +27,7 @@ const Navbar = () => {
                     className="flex items-center gap-2 cursor-pointer"
                     onClick={() => navigate("/")}
                 >
-                    <img src="/logo.png" alt="Byway logo" className="w-8 h-9" />
+                    <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Byway logo" className="w-8 h-9" />
                     <span className="text-xl font-semibold text-gray-700">Byway</span>
                 </div>
 

@@ -54,8 +54,7 @@ const Register = () => {
                 className="w-1/2 bg-gray-50 flex justify-center items-center"
             >
                 <img
-                    src="/sign.png"
-                    alt="Register illustration"
+                    src={`${import.meta.env.BASE_URL}sign.png`}
                     className="w-4/5 rounded-xl shadow-lg"
                 />
             </motion.div>

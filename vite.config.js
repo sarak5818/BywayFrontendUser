@@ -8,7 +8,7 @@ export default defineConfig({
     tailwindcss()
   ],
 
-  base: "/BywayFrontendUser",
+  base: "/BywayFrontendUser/",
 
   server: {
     port: 3002,

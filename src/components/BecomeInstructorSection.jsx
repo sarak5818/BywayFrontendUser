@@ -3,8 +3,7 @@ const BecomeInstructorSection = () => {
         <section className="bg-white py-20 px-6 md:px-20 flex flex-col md:flex-row items-center justify-between gap-12">
             <div className="md:w-1/2 flex justify-center">
                 <img
-                    src="/become.png"
-                    alt="Instructor"
+                    src={`${import.meta.env.BASE_URL}become.png`} alt="Instructor"
                     className="rounded-2xl w-80 h-auto object-cover"
                 />
             </div>

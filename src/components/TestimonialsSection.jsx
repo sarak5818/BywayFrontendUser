@@ -7,19 +7,19 @@ const testimonials = [
         name: "Jane Doe",
         role: "Designer",
         text: `"Byway's tech courses are top-notch! As someone who's always looking to stay ahead in the rapidly evolving tech world, I appreciate the up-to-date content and engaging multimedia."`,
-        image: "/customer1.png",
+        image: `${import.meta.env.BASE_URL}review.png`
     },
     {
         name: "Jane Doe",
         role: "Designer",
         text: `"Byway's tech courses are top-notch! As someone who's always looking to stay ahead in the rapidly evolving tech world, I appreciate the up-to-date content and engaging multimedia."`,
-        image: "/customer1.png",
+        image: `${import.meta.env.BASE_URL}review.png`
     },
     {
         name: "Jane Doe",
         role: "Designer",
         text: `"Byway's tech courses are top-notch! As someone who's always looking to stay ahead in the rapidly evolving tech world, I appreciate the up-to-date content and engaging multimedia."`,
-        image: "/customer1.png",
+        image: `${import.meta.env.BASE_URL}review.png`
     },
 ];
 

@@ -10,7 +10,8 @@ const CoursesSection = () => {
             reviews: 2400,
             price: "$45.00",
             category: "UI/UX Design",
-            image: "/course1.png",
+            image: `${import.meta.env.BASE_URL}course1.png`
+
         },
         {
             id: 2,
@@ -20,7 +21,7 @@ const CoursesSection = () => {
             reviews: 1800,
             price: "$60.00",
             category: "UI/UX Design",
-            image: "/course1.png",
+            image: `${import.meta.env.BASE_URL}course1.png`
         },
         {
             id: 3,
@@ -30,7 +31,7 @@ const CoursesSection = () => {
             reviews: 1500,
             price: "$55.00",
             category: "UI/UX Design",
-            image: "/course1.png",
+            image: `${import.meta.env.BASE_URL}course1.png`
         },
         {
             id: 4,
@@ -40,7 +41,7 @@ const CoursesSection = () => {
             reviews: 2100,
             price: "$70.00",
             category: "UI/UX Design",
-            image: "/course1.png",
+            image: `${import.meta.env.BASE_URL}course1.png`
         },
     ];
 

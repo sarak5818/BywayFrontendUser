@@ -38,7 +38,7 @@ const coursesData = [
         hours: 18,
         level: "Beginner",
         price: 35,
-        image: "/course1.png",
+        image: `${import.meta.env.BASE_URL}course1.png`
     },
     {
         id: 1,
@@ -50,7 +50,7 @@ const coursesData = [
         hours: 45,
         level: "Advanced",
         price: 80,
-        image: "/course1.png",
+        image: `${import.meta.env.BASE_URL}course1.png`
     },
     {
         id: 1,
@@ -62,7 +62,7 @@ const coursesData = [
         hours: 25,
         level: "Advanced",
         price: 70,
-        image: "/course1.png",
+        image: `${import.meta.env.BASE_URL}course1.png`
     },
     {
         id: 1,
@@ -74,7 +74,7 @@ const coursesData = [
         hours: 28,
         level: "Intermediate",
         price: 55,
-        image: "/course1.png",
+        image: `${import.meta.env.BASE_URL}course1.png`
     },
     {
         id: 1,
@@ -86,7 +86,7 @@ const coursesData = [
         hours: 14,
         level: "Beginner",
         price: 40,
-        image: "/course1.png",
+        image: `${import.meta.env.BASE_URL}course1.png`
     },
     {
         id: 1,
@@ -98,7 +98,7 @@ const coursesData = [
         hours: 32,
         level: "Intermediate",
         price: 65,
-        image: "/course1.png",
+        image: `${import.meta.env.BASE_URL}course1.png`
     },
     {
         id: 1,
@@ -110,7 +110,7 @@ const coursesData = [
         hours: 38,
         level: "Advanced",
         price: 75,
-        image: "/course1.png",
+        image: `${import.meta.env.BASE_URL}course1.png`
     },
     {
         id: 1,
@@ -122,7 +122,7 @@ const coursesData = [
         hours: 50,
         level: "Advanced",
         price: 85,
-        image: "/course1.png",
+        image: `${import.meta.env.BASE_URL}course1.png`
     },
     {
         id: 1,
@@ -134,7 +134,7 @@ const coursesData = [
         hours: 12,
         level: "Beginner",
         price: 30,
-        image: "/course1.png",
+        image: `${import.meta.env.BASE_URL}course1.png`
     },
     {
         id: 1,
@@ -146,7 +146,7 @@ const coursesData = [
         hours: 22,
         level: "Intermediate",
         price: 50,
-        image: "/course1.png",
+        image: `${import.meta.env.BASE_URL}course1.png`
     },
 ];
 
