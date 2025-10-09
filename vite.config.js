@@ -10,9 +10,6 @@ export default defineConfig({
 
   base: "/BywayFrontendUser/",
 
-  server: {
-    port: 3002,
-    host: true,
-    strictPort: true,
-  }
+
+
 })
